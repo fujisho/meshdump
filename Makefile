@@ -1,2 +1,6 @@
+CFLAGS=-g
+
 meshdump: main.o
-	$(CC) -o maindump main.o -lpcap
+	$(CC) -o meshdump main.o -lpcap
+clean:
+	$(RM) meshdump *.o *~
