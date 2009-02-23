@@ -8,6 +8,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <getopt.h>
+#include <pthread.h>
 
 #include <sys/select.h>
 #include <sys/time.h>
